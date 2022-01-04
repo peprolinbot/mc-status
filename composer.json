@@ -1,5 +1,5 @@
 {
-    "name": "styxit/mc-status",
+    "name": "peprolinbot/mc-status",
     "description": "Minecraft server status page",
     "keywords": ["minecraft", "server", "status", "online", "check"],
     "type": "project",
@@ -10,10 +10,10 @@
     },
     "authors": [
         {
-            "name": "Styxit",
-            "email": "info@styxit.com",
+            "name": "Peprolinbot",
+            "email": "contact@peprolinbot.com",
             "role": "Author",
-            "homepage": "https://styxit.com"
+            "homepage": "https://peprolinbot.com"
         }
     ]
 }
