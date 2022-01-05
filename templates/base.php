@@ -22,6 +22,7 @@
             <p>
                 <a href="https://github.com/peprolinbot/mc-status"><i class="fa fa-github"></i> View on GitHub</a>
                 <a href="https://peprolinbot.com"><i class="fa fa-user-circle"></i> Created by peprolinbot</a>
+                <a href="https://github.com/styxit/MinecraftStatusPage"><i class="fa fa-github"></i> Forked from Styxit</a>
             </p>
         </div>
     </div>
