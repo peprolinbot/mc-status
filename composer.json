@@ -5,8 +5,7 @@
     "type": "project",
     "require": {
         "xpaw/php-minecraft-query": "^2.0",
-        "league/plates": "^3.3",
-        "josegonzalez/dotenv": "^3.2"
+        "league/plates": "^3.3"
     },
     "authors": [
         {

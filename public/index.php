@@ -7,12 +7,6 @@ use League\Plates\Engine as TemplateEngine;
 use xPaw\MinecraftPing;
 use xPaw\MinecraftPingException;
 
-// Load .env config.
-(new DotEnv('../.env'))
-    ->parse()
-    ->expect('SERVER_HOST')
-    ->putenv(true);
-
 // Try to query the Minecraft server.
 try {
     $Query = new MinecraftPing(getenv('SERVER_HOST'), 25565, 1);
