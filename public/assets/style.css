@@ -134,3 +134,13 @@ i.offline {
 .status-footer a i {
     color: #72AD48;
 }
+
+.copy-button {
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.copy-button:active {
+  color: grey;
+}

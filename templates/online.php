@@ -1,8 +1,17 @@
 <?php $this->layout('base', ['title' => $host.' is online']) ?>
 
 <div class="status-header">
-    <h1 class="title"><i class="status online fa fa-circle"></i> <?= $this->e($host) ?></h1>
-    <h2 class="subtitle"><?= $this->e($description['text']) ?></h2>
+  <script>
+  function copyHostToClipboard() {
+    var copyText = "<?= $this->e($host) ?>";
+
+    navigator.clipboard.writeText(copyText);
+
+    alert("Copied!")
+  }
+  </script>
+  <h1 class="title"><i class="status online fa fa-circle"></i> <?= $this->e($host) ?><button class="copy-button fas fa-copy fa-fw" onclick="copyHostToClipboard()"></button></h1>
+  <h2 class="subtitle"><?= $this->e($description['text']) ?></h2>
 </div>
 
 <div class="status-list">
