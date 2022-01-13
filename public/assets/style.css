@@ -46,11 +46,17 @@ a:hover {
     line-height: 1;
     font-weight: 300;
 }
+
+.status-header .title {
+    overflow-wrap: anywhere;
+}
+
 .status-header .subtitle {
     margin-left: auto;
     color: #69707a;
     font-size: 18px;
     line-height: 1.125;
+    overflow-wrap: anywhere;
 }
 
 .status-header .indicator {
